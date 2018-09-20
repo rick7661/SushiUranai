@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		542D1DDF21520F6200EF5181 /* Kanshi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542D1DDE21520F6200EF5181 /* Kanshi.swift */; };
+		542D1DE22152130900EF5181 /* Unsei.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542D1DE12152130900EF5181 /* Unsei.swift */; };
+		542D1DE4215220DD00EF5181 /* MultiLanguageContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542D1DE3215220DD00EF5181 /* MultiLanguageContent.swift */; };
+		54D20F622151CD9D00691891 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D20F612151CD9D00691891 /* AppDelegate.swift */; };
+		54D20F642151CD9D00691891 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D20F632151CD9D00691891 /* ViewController.swift */; };
+		54D20F672151CD9D00691891 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54D20F652151CD9D00691891 /* Main.storyboard */; };
+		54D20F692151CD9E00691891 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54D20F682151CD9E00691891 /* Assets.xcassets */; };
+		54D20F6C2151CD9E00691891 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54D20F6A2151CD9E00691891 /* LaunchScreen.storyboard */; };
+		54D20F772151CD9F00691891 /* SushiUranaiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D20F762151CD9F00691891 /* SushiUranaiTests.swift */; };
+		54D20F822151CEBE00691891 /* Omikuji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D20F812151CEBE00691891 /* Omikuji.swift */; };
+		54D20F842151CF9B00691891 /* MikujiSen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D20F832151CF9B00691891 /* MikujiSen.swift */; };
+		54D20F862151D48D00691891 /* MikujiTsutsu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D20F852151D48D00691891 /* MikujiTsutsu.swift */; };
+		54D20F882151D9D900691891 /* Kuji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D20F872151D9D900691891 /* Kuji.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54D20F732151CD9F00691891 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54D20F562151CD9C00691891 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54D20F5D2151CD9D00691891;
+			remoteInfo = SushiUranai;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		542D1DDE21520F6200EF5181 /* Kanshi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kanshi.swift; sourceTree = "<group>"; };
+		542D1DE12152130900EF5181 /* Unsei.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unsei.swift; sourceTree = "<group>"; };
+		542D1DE3215220DD00EF5181 /* MultiLanguageContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiLanguageContent.swift; sourceTree = "<group>"; };
+		54D20F5E2151CD9D00691891 /* SushiUranai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SushiUranai.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54D20F612151CD9D00691891 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		54D20F632151CD9D00691891 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		54D20F662151CD9D00691891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54D20F682151CD9E00691891 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54D20F6B2151CD9E00691891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54D20F6D2151CD9E00691891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54D20F722151CD9F00691891 /* SushiUranaiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SushiUranaiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54D20F762151CD9F00691891 /* SushiUranaiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiUranaiTests.swift; sourceTree = "<group>"; };
+		54D20F782151CD9F00691891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54D20F812151CEBE00691891 /* Omikuji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Omikuji.swift; sourceTree = "<group>"; };
+		54D20F832151CF9B00691891 /* MikujiSen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MikujiSen.swift; sourceTree = "<group>"; };
+		54D20F852151D48D00691891 /* MikujiTsutsu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MikujiTsutsu.swift; sourceTree = "<group>"; };
+		54D20F872151D9D900691891 /* Kuji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kuji.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54D20F5B2151CD9D00691891 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54D20F6F2151CD9F00691891 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		542D1DE0215212A700EF5181 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				54D20F832151CF9B00691891 /* MikujiSen.swift */,
+				542D1DDE21520F6200EF5181 /* Kanshi.swift */,
+				54D20F872151D9D900691891 /* Kuji.swift */,
+				542D1DE12152130900EF5181 /* Unsei.swift */,
+				542D1DE3215220DD00EF5181 /* MultiLanguageContent.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		54D20F552151CD9C00691891 = {
+			isa = PBXGroup;
+			children = (
+				54D20F602151CD9D00691891 /* SushiUranai */,
+				54D20F752151CD9F00691891 /* SushiUranaiTests */,
+				54D20F5F2151CD9D00691891 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54D20F5F2151CD9D00691891 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54D20F5E2151CD9D00691891 /* SushiUranai.app */,
+				54D20F722151CD9F00691891 /* SushiUranaiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54D20F602151CD9D00691891 /* SushiUranai */ = {
+			isa = PBXGroup;
+			children = (
+				54D20F612151CD9D00691891 /* AppDelegate.swift */,
+				54D20F632151CD9D00691891 /* ViewController.swift */,
+				54D20F652151CD9D00691891 /* Main.storyboard */,
+				54D20F682151CD9E00691891 /* Assets.xcassets */,
+				54D20F892151E64400691891 /* Omikuji */,
+				54D20F6A2151CD9E00691891 /* LaunchScreen.storyboard */,
+				54D20F6D2151CD9E00691891 /* Info.plist */,
+			);
+			path = SushiUranai;
+			sourceTree = "<group>";
+		};
+		54D20F752151CD9F00691891 /* SushiUranaiTests */ = {
+			isa = PBXGroup;
+			children = (
+				54D20F762151CD9F00691891 /* SushiUranaiTests.swift */,
+				54D20F782151CD9F00691891 /* Info.plist */,
+			);
+			path = SushiUranaiTests;
+			sourceTree = "<group>";
+		};
+		54D20F892151E64400691891 /* Omikuji */ = {
+			isa = PBXGroup;
+			children = (
+				542D1DE0215212A700EF5181 /* models */,
+				54D20F852151D48D00691891 /* MikujiTsutsu.swift */,
+				54D20F812151CEBE00691891 /* Omikuji.swift */,
+			);
+			path = Omikuji;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54D20F5D2151CD9D00691891 /* SushiUranai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54D20F7B2151CD9F00691891 /* Build configuration list for PBXNativeTarget "SushiUranai" */;
+			buildPhases = (
+				54D20F5A2151CD9D00691891 /* Sources */,
+				54D20F5B2151CD9D00691891 /* Frameworks */,
+				54D20F5C2151CD9D00691891 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SushiUranai;
+			productName = SushiUranai;
+			productReference = 54D20F5E2151CD9D00691891 /* SushiUranai.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54D20F712151CD9F00691891 /* SushiUranaiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54D20F7E2151CD9F00691891 /* Build configuration list for PBXNativeTarget "SushiUranaiTests" */;
+			buildPhases = (
+				54D20F6E2151CD9F00691891 /* Sources */,
+				54D20F6F2151CD9F00691891 /* Frameworks */,
+				54D20F702151CD9F00691891 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54D20F742151CD9F00691891 /* PBXTargetDependency */,
+			);
+			name = SushiUranaiTests;
+			productName = SushiUranaiTests;
+			productReference = 54D20F722151CD9F00691891 /* SushiUranaiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54D20F562151CD9C00691891 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Rick Wu";
+				TargetAttributes = {
+					54D20F5D2151CD9D00691891 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					54D20F712151CD9F00691891 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 54D20F5D2151CD9D00691891;
+					};
+				};
+			};
+			buildConfigurationList = 54D20F592151CD9C00691891 /* Build configuration list for PBXProject "SushiUranai" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54D20F552151CD9C00691891;
+			productRefGroup = 54D20F5F2151CD9D00691891 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54D20F5D2151CD9D00691891 /* SushiUranai */,
+				54D20F712151CD9F00691891 /* SushiUranaiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54D20F5C2151CD9D00691891 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54D20F6C2151CD9E00691891 /* LaunchScreen.storyboard in Resources */,
+				54D20F692151CD9E00691891 /* Assets.xcassets in Resources */,
+				54D20F672151CD9D00691891 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54D20F702151CD9F00691891 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54D20F5A2151CD9D00691891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54D20F842151CF9B00691891 /* MikujiSen.swift in Sources */,
+				54D20F642151CD9D00691891 /* ViewController.swift in Sources */,
+				542D1DE22152130900EF5181 /* Unsei.swift in Sources */,
+				542D1DDF21520F6200EF5181 /* Kanshi.swift in Sources */,
+				54D20F862151D48D00691891 /* MikujiTsutsu.swift in Sources */,
+				542D1DE4215220DD00EF5181 /* MultiLanguageContent.swift in Sources */,
+				54D20F822151CEBE00691891 /* Omikuji.swift in Sources */,
+				54D20F882151D9D900691891 /* Kuji.swift in Sources */,
+				54D20F622151CD9D00691891 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54D20F6E2151CD9F00691891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54D20F772151CD9F00691891 /* SushiUranaiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54D20F742151CD9F00691891 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54D20F5D2151CD9D00691891 /* SushiUranai */;
+			targetProxy = 54D20F732151CD9F00691891 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54D20F652151CD9D00691891 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54D20F662151CD9D00691891 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54D20F6A2151CD9E00691891 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54D20F6B2151CD9E00691891 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54D20F792151CD9F00691891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		54D20F7A2151CD9F00691891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54D20F7C2151CD9F00691891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PYX86GD6NM;
+				INFOPLIST_FILE = SushiUranai/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.rickwu.SushiUranai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54D20F7D2151CD9F00691891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PYX86GD6NM;
+				INFOPLIST_FILE = SushiUranai/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.rickwu.SushiUranai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		54D20F7F2151CD9F00691891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PYX86GD6NM;
+				INFOPLIST_FILE = SushiUranaiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.rickwu.SushiUranaiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SushiUranai.app/SushiUranai";
+			};
+			name = Debug;
+		};
+		54D20F802151CD9F00691891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PYX86GD6NM;
+				INFOPLIST_FILE = SushiUranaiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.rickwu.SushiUranaiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SushiUranai.app/SushiUranai";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54D20F592151CD9C00691891 /* Build configuration list for PBXProject "SushiUranai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54D20F792151CD9F00691891 /* Debug */,
+				54D20F7A2151CD9F00691891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54D20F7B2151CD9F00691891 /* Build configuration list for PBXNativeTarget "SushiUranai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54D20F7C2151CD9F00691891 /* Debug */,
+				54D20F7D2151CD9F00691891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54D20F7E2151CD9F00691891 /* Build configuration list for PBXNativeTarget "SushiUranaiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54D20F7F2151CD9F00691891 /* Debug */,
+				54D20F802151CD9F00691891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54D20F562151CD9C00691891 /* Project object */;
+}

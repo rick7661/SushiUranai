@@ -10,9 +10,9 @@
 		542D1DDF21520F6200EF5181 /* Kanshi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542D1DDE21520F6200EF5181 /* Kanshi.swift */; };
 		542D1DE22152130900EF5181 /* Unsei.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542D1DE12152130900EF5181 /* Unsei.swift */; };
 		542D1DE4215220DD00EF5181 /* MultiLanguageContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542D1DE3215220DD00EF5181 /* MultiLanguageContent.swift */; };
+		542D1E412155A0AF00EF5181 /* SushiUranaiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 542D1E402155A0AF00EF5181 /* SushiUranaiViewController.xib */; };
 		54D20F622151CD9D00691891 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D20F612151CD9D00691891 /* AppDelegate.swift */; };
-		54D20F642151CD9D00691891 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D20F632151CD9D00691891 /* ViewController.swift */; };
-		54D20F672151CD9D00691891 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54D20F652151CD9D00691891 /* Main.storyboard */; };
+		54D20F642151CD9D00691891 /* SushiUranaiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D20F632151CD9D00691891 /* SushiUranaiViewController.swift */; };
 		54D20F692151CD9E00691891 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54D20F682151CD9E00691891 /* Assets.xcassets */; };
 		54D20F6C2151CD9E00691891 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54D20F6A2151CD9E00691891 /* LaunchScreen.storyboard */; };
 		54D20F772151CD9F00691891 /* SushiUranaiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D20F762151CD9F00691891 /* SushiUranaiTests.swift */; };
@@ -36,10 +36,10 @@
 		542D1DDE21520F6200EF5181 /* Kanshi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kanshi.swift; sourceTree = "<group>"; };
 		542D1DE12152130900EF5181 /* Unsei.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unsei.swift; sourceTree = "<group>"; };
 		542D1DE3215220DD00EF5181 /* MultiLanguageContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiLanguageContent.swift; sourceTree = "<group>"; };
+		542D1E402155A0AF00EF5181 /* SushiUranaiViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SushiUranaiViewController.xib; sourceTree = "<group>"; };
 		54D20F5E2151CD9D00691891 /* SushiUranai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SushiUranai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54D20F612151CD9D00691891 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		54D20F632151CD9D00691891 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		54D20F662151CD9D00691891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54D20F632151CD9D00691891 /* SushiUranaiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiUranaiViewController.swift; sourceTree = "<group>"; };
 		54D20F682151CD9E00691891 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54D20F6B2151CD9E00691891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54D20F6D2151CD9E00691891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -104,8 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				54D20F612151CD9D00691891 /* AppDelegate.swift */,
-				54D20F632151CD9D00691891 /* ViewController.swift */,
-				54D20F652151CD9D00691891 /* Main.storyboard */,
+				542D1E402155A0AF00EF5181 /* SushiUranaiViewController.xib */,
+				54D20F632151CD9D00691891 /* SushiUranaiViewController.swift */,
 				54D20F682151CD9E00691891 /* Assets.xcassets */,
 				54D20F892151E64400691891 /* Omikuji */,
 				54D20F6A2151CD9E00691891 /* LaunchScreen.storyboard */,
@@ -183,9 +183,11 @@
 				TargetAttributes = {
 					54D20F5D2151CD9D00691891 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 					};
 					54D20F712151CD9F00691891 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 						TestTargetID = 54D20F5D2151CD9D00691891;
 					};
 				};
@@ -216,7 +218,6 @@
 			files = (
 				54D20F6C2151CD9E00691891 /* LaunchScreen.storyboard in Resources */,
 				54D20F692151CD9E00691891 /* Assets.xcassets in Resources */,
-				54D20F672151CD9D00691891 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,7 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				54D20F842151CF9B00691891 /* MikujiSen.swift in Sources */,
-				54D20F642151CD9D00691891 /* ViewController.swift in Sources */,
+				54D20F642151CD9D00691891 /* SushiUranaiViewController.swift in Sources */,
 				542D1DE22152130900EF5181 /* Unsei.swift in Sources */,
 				542D1DDF21520F6200EF5181 /* Kanshi.swift in Sources */,
 				54D20F862151D48D00691891 /* MikujiTsutsu.swift in Sources */,
@@ -265,14 +266,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		54D20F652151CD9D00691891 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				54D20F662151CD9D00691891 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		54D20F6A2151CD9E00691891 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -411,7 +404,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = edu.self.rickwu.SushiUranai;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -429,7 +422,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = edu.self.rickwu.SushiUranai;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -449,7 +442,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = edu.self.rickwu.SushiUranaiTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SushiUranai.app/SushiUranai";
 			};
@@ -470,7 +463,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = edu.self.rickwu.SushiUranaiTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SushiUranai.app/SushiUranai";
 			};
